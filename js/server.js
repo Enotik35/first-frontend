@@ -13,3 +13,5 @@ const text = fs.readFileSync('index.html','utf8');
 response.end(text);
 }
 });
+console.log('port = ',proccess.env.PORT);
+server.listen(proccess.env.PORT);
