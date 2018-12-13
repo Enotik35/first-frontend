@@ -1,12 +1,12 @@
 {
-  "name": "sait",
+  "name": "example",
   "version": "1.0.0",
-  "main": "",
+  "description": "",
+  "main": "script.js",
   "scripts": {
-    "start":"node server.js"
+    "start": "node server.js"
   },
-  "keywords":[],
+  "keywords": [],
   "author": "",
   "license": "ISC"
 }
-
