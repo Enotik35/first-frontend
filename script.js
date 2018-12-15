@@ -59,6 +59,8 @@ nav.addEventListener('click', function(event) {
 
 });
 
+const usernameDiv = document.getElementById('username-div');
+const passwordDiv = document.getElementById('password-div');
 const chat = document.getElementById('chat');
 
 function texting() {
@@ -74,12 +76,13 @@ const loginForm = document.getElementById('login-form');
 loginForm.addEventListener('submit',function(event){
 	event.preventDefault();
 	console.log(loginForm.elements);
-	const email = loginForm.elements['email'].value;
-	const username = loginForm.elements['username'].value;
+	//console.log(loginForm.getElementById('inpt1').value);
+	//const password = loginForm.getElementById['password'].value;
+	//const username = loginForm.getElementById['username'].value;
 
-	auth(username,email, function(err,resp) {
-		console.log(err,resp);
-	})
+//	auth(username,password, function(err,resp) {
+//		console.log(err,resp);
+//	})
 
 	//emailDiv.textContent = email;
 	//usernameDiv.textContent = username;
