@@ -37,7 +37,16 @@ body {
 	text-shadow:  1px 1px 2px black;
 }
 
-.inpt{
+#inpt1{
+	background-color: rgb(80, 80, 79);
+	color: rgb(1, 255, 192);
+	font-size: 150%;
+	height: 46px;
+	text-shadow:  1px 1px 2px black;
+	border-radius: 10px;
+}
+
+#inpt2{
 	background-color: rgb(80, 80, 79);
 	color: rgb(1, 255, 192);
 	font-size: 150%;
