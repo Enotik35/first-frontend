@@ -1,0 +1,58 @@
+#application {
+	text-align: center;
+
+}
+
+#appl {
+	font-size: 450%;
+	color: rgb(1, 255, 192);
+	text-shadow:  1px 1px 2px black;
+}
+body {
+	 background: linear-gradient( to right, #e66465, #9198e5);
+}
+
+.but{
+	width: 150px;
+	height: 50px;
+	background: linear-gradient( to top,#9198e5 , #e66465);
+	font-size: 100%;
+	color: rgb(1, 255, 192);
+	border-radius: 10px;
+	text-shadow:  1px 1px 2px black;
+}
+#input {
+	background-color: rgb(80, 80, 79);
+	color: rgb(1, 255, 192);
+	font-size: 150%;
+	margin-top: 20px;
+	border-radius: 10px;
+	width: 450px;
+	height: 46px;
+	text-shadow:  1px 1px 2px black;
+}
+.msg {
+	font-size: 200%;
+	color: rgb(1, 255, 192);
+	text-shadow:  1px 1px 2px black;
+}
+
+.inpt{
+	background-color: rgb(80, 80, 79);
+	color: rgb(1, 255, 192);
+	font-size: 150%;
+	height: 46px;
+	text-shadow:  1px 1px 2px black;
+	border-radius: 10px;
+}
+h2{
+	color: rgb(1, 255, 192);
+	text-shadow:  1px 1px 2px black;
+	font-size: 200%;
+}
+
+#about {
+	text-shadow:  1px 1px 2px black;
+	color: rgb(1, 255, 192);
+	font-size: 200%;
+}
